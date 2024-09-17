@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <style>
+            ul{
+                list-style: none;
+                margin: 0;
+                padding: 10px;
+                background-color: black;
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                left: 0;
+            }
+            li a{
+                display: block;
+                color: white;
+                text-decoration: none;
+                padding: 10px;
+            }
+            li a:hover{
+                background-color: blue;
+                font-weight: bold;
+            }
+            .active{
+                background-color: blue;
+                font-weight: bold;
+            }
+            div{
+                margin-left: 150px;
+            }
+            div h3{
+                background-color: blue;
+                color: white;
+                padding: 10px;
+            }
+            div button{
+                background-color: green;
+                color: white;
+                border: none;
+                padding: 10px;
+                margin: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li><h1><a>MENU</a></h1></li>
+            <li><a href="#" class="active">Dashboard</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Department</a></li> 
+            <li><a href="#">Position</a></li>
+            <li><a href="#">Personnel</a></li> 
+            <li><a href="#">Warning</a></li> 
+            <li><a href="#">Award</a></li> 
+            <li><a href="#">Permission</a></li>
+            <li><a href="#">Leave</a></li>  
+            <li><a href="#">Report</a></li>  
+            <li><a href="#">User Settings</a></li>  
+            <li><a href="#">Logout</a></li>  
+        </ul>
+
+        <div>
+            <h3>HRD Application</h3>
+        </div>
+        
+        <div class="button">
+            <button>Total Employees</button>
+            <button>Monthly Award</button>
+            <button>Active Warning</button>
+            <button>Ongoing Leave</button>
+        </div>
+
+        <div>
+            <h1>Welcome, user!</h1>
+        </div>
+    </body>
+</html>
