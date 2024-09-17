@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pamungkas</title>
+    <link rel="icon" type="image/x-icon" href="persija.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<style>
+    /* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.buttons {
+    align-items: center;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #23527c;
+    display: inline-block;
+    text-align: center;
+    margin: 4px 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons:hover{
+    background-color: #000000;
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #252323;
+}
+
+.linktree-container {
+    text-align: center;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.linktree-header {
+    padding: 20px;
+    text-align: center;
+}
+
+.linktree-header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.linktree-links {
+    padding: 20px;
+}
+
+.linktree-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.linktree-links li {
+    margin: 10px;
+}
+
+.linktree-links a {
+    text-decoration: none;
+    color: #337ab7;
+    transition: color 0.2s ease;
+}
+
+.linktree-links a:hover {
+    color: #23527c;
+}
+
+.linktree-links i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+.profile-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Media Queries */
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+    .linktree-container {
+        max-width: 600px;
+    }
+}
+
+/* For screens smaller than 480px */
+@media (max-width: 480px) {
+    .linktree-container {
+        max-width: 400px;
+    }
+}
+</style>
+    <div class="linktree-container">
+        <div class="linktree-header">
+            <div class="profile-photo">
+                <img src="bambang.jpg" alt="Profile Picture">
+            </div>
+            <h1>Bambang Pamungkas</h1>
+            <p>Soccer is my passion.</p>
+        </div>
+        <button class="buttons">TEST</button>
+        <button class="buttons">TEST</button>
+        <button class="buttons">TEST</button>
+        <div class="linktree-links">
+            <ul>
+                <li>
+                    <a href="https://www.instagram.com/yourinstagram" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                        Instagram
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com/yourtwitter" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                        Twitter
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/yourfacebook" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                        Facebook
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/youryoutube" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                        YouTube
+                    </a>
+                </li>
+                <!-- Add more links here -->
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

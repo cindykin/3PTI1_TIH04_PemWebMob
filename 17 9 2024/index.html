@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<style>
+    /* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    background-image: url(bg.jpg);
+}
+
+.profile-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+.profile-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-description {
+    padding: 20px;
+}
+
+.profile-description h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile-table {
+    padding: 20px;
+}
+
+.profile-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.profile-table th, .profile-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.profile-table th {
+    background-color: #8b8989;
+}
+
+/* Media Queries */
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+    .profile-container {
+        max-width: 600px;
+    }
+    .profile-photo {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* For screens smaller than 480px */
+@media (max-width: 480px) {
+    .profile-container {
+        max-width: 400px;
+    }
+    .profile-photo {
+        width: 80px;
+        height: 80px;
+    }
+}
+</style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EAK</title>
+    <link>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-photo">
+            <img src="profpic.jpg" alt="Profile Picture">
+        </div>
+        <div class="profile-description">
+            <h1>Dharmawangsa</h1>
+            <p>EAK.</p>
+        </div>
+        <div class="profile-table">
+            <button>TEST</button>
+            <table>
+                <tr>
+                    <th>Info</th>
+                    <th>Details</th>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>Location</td>
+                    <td>Jakarta, Indonesia</td>
+                </tr>
+                <tr>
+                    <td>Hobbies</td>
+                    <td>Reading, Coding, Traveling</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
