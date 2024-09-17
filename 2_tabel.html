@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* ini buat ngubah desain jadi lebih cantik */
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 10px;
+        background-color: black;
+        position: fixed;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+      }
+
+      /* ini buat mengubah warna teksnya */
+      li a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+      }
+      /* buat kalo disentuh berubah warna */
+      li a:hover {
+        background-color: rgb(119, 40, 255);
+      }
+      .active {
+        background-color: rgb(119, 40, 255);
+        font-style: bold;
+      }
+
+      /* list ungu paling atas */
+      div {
+        margin-left: 200px;
+      }
+      div h3 {
+        background-color: rgb(119, 40, 255);
+        color: white;
+        padding: 10px;
+      }
+      /* buttonnya */
+      div button {
+        background-color: rgb(78, 209, 78);
+        color: white;
+        border: none;
+        padding: 10px;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ini buat navigasi barnya -->
+    <ul>
+      <li>
+        <h1><a>MENU</a></h1>
+      </li>
+      <li><a href="#">Dashboard</a></li>
+      <li><a href="#">Profil Perusahaan</a></li>
+      <li><a href="#">Departemen</a></li>
+      <li><a href="#">Jabatan</a></li>
+      <li><a href="#">Kepegawaian</a></li>
+      <li><a href="#">Peringatan</a></li>
+      <li><a href="#">Penghargaan</a></li>
+      <li><a href="#">Izin</a></li>
+      <li><a href="#">Cuti</a></li>
+      <li><a href="#">Laporan</a></li>
+      <li><a href="#">Pengaturan User</a></li>
+    </ul>
+
+    <div>
+      <h3>APLIKASI HRD</h3>
+    </div>
+
+    <div class="button">
+      <button>Total Pegawai</button>
+      <button>Penghargaan Bulan Ini</button>
+      <button>Total Pegawai</button>
+      <button>Cuti Yang Berjalan</button>
+    </div>
+
+    <div>
+      <h1>Selamat datang di aplikasi HRD</h1>
+    </div>
+  </body>
+</html>
