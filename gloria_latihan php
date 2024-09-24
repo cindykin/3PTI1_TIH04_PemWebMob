@@ -1,0 +1,64 @@
+#formget.php
+<html>
+<head>
+<title>selamat datang </title>
+</head>
+<body>
+selamat datang kak <?php echo $_GET["nama"] ?><br>
+dengan NIM <?php echo $_GET["nim"] ?><br>
+ini dibuat dengan method get
+</body>
+</html>
+
+#formget1.php
+<html>
+<head>
+	<title>pertemuan 4</title>
+</head>
+<body>
+	<h1>hello</h1>
+	<form action="formget.php" method="GET">
+		metode GET
+		Nama Lengkap:<input type="text" name="nama"><br>
+		NIM: <input type="text" name "nim"><br>
+		<input type="submit">
+	</form>
+</body>
+</html>
+
+#formpost.php
+<html>
+<head>
+<title>selamat datang </title>
+</head>
+<body>
+<?php
+	$password=$_POST["pw"];
+	if ($password == "aa") {?>
+		Selamat datang kak <?php echo $_POST["nama"] ?><br>
+		Dengan NIM <?php echo $_POST["nim"] ?><br>
+		ini dibuat dengan method post
+	<?php
+	}else{
+		echo "password salah";
+	}
+?>
+</body>
+</html>
+
+#formpost1.php
+<html>
+<head>
+	<title>pertemuan 4</title>
+</head>
+<body>
+	<h1>hello</h1>
+	<form action="formpost.php" method="POST">
+		metode POST
+		Nama Lengkap:<input type="text" name="nama"><br>
+		password : <input type="password" name="pw"><br>
+		NIM: <input type="text" name="nim"><br>
+		<input type="submit">
+	</form>
+</body>
+</html>
