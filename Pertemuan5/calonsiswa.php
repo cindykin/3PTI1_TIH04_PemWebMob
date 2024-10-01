@@ -4,7 +4,10 @@ require "function.php";
 $mahasiswa = request("SELECT * FROM mahasiswa");
 
 foreach ($mahasiswa as $mhs){
-    foreach()
+    $no = $mhs[0];
+    $nama = $mhs[1];
+    $nim = $mhs[2];
+    $email = $mhs[3];
 }
 ?>
 
