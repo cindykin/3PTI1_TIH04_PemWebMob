@@ -34,6 +34,10 @@
       }
       
       myMessage();
+
+      if (ISSET($_GET["tombolget"])) {
+        echo "<h1>SURRPRRAIIISSS" . $_GET(["nama"]) . "</h1>";
+      }
     ?>
     <br><br><br><br><br>
     Boleh isi data diri terlebih dahulu (ini post)
@@ -41,7 +45,7 @@
         Nama Lengkap : <input type="text" name="nama"><br>
         NIM : <input type="text" name="nim"><br>
         Password : <input type="password" name="pass"><br>
-        <input type="submit">
+        <input type="submit" name="tombolpost">
     </form>
 <br><br>
 ini get
@@ -49,7 +53,7 @@ ini get
         Nama Lengkap : <input type="text" name="nama"><br>
         NIM : <input type="text" name="nim"><br>
         Password : <input type="password" name="pass"><br>
-        <input type="submit">
+        <input type="submit"  name="tombolget">
     </form>
 </body>
 </html>
