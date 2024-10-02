@@ -1,3 +1,10 @@
+<?php
+if (isset ($_GET["tombolget"])) {
+  echo "<h1>SUPRAISS" . $_GET["nama"] . "</h1>";
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,6 +13,13 @@
     <title>Pertemuan 4</title>
   </head>
   <body>
+    <form action="" method="get">
+      Nama Lengkap: <input type="text" name="nama"><br>
+      NIM : <input type="text" name="nim">
+      <input type="sumbit" name="tombolget">
+    </form>
+
+
     <h1>haiii</h1>
 
     boleh isi data diri dulu
