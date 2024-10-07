@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrawlSheesh</title>
+    <style>
+        html, body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding: 0;
+            margin: 0;
+        } 
+        .judul {
+            display: flex;
+            justify-content: center;
+            color: rgb(33, 35, 35);
+			color:hsl(60, 87%, 63%);
+			text-transform: uppercase;
+			text-shadow: -1px 1px 1px rgba(235, 233, 233, 0.4), 1px -1px 0 rgb(15, 14, 14);  ;
+        }
+        .boxTerluar {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: max-width;
+            height: 100vh;
+            margin: 0 auto;
+            background-image: url("isaiah.jpeg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .boxSaya {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: aliceblue;
+        }
+        .boxSaya img, .judul {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+        .boxLink {
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            flex-direction: column;
+            width: 80%;
+            gap: 5px;
+        }
+        .boxLink button {
+            background-color: rgb(175, 230, 246);
+            border: none;
+            border-radius: 5px;
+            padding: 3%;
+            font-size: 25px;
+            cursor: pointer;
+            transition: 400ms ease-in-out;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .boxLink button:hover{
+            background-color: rgb(87, 104, 193);
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boxTerluar">
+        <div class="boxSaya">
+            <img src="Brawlhalla.png" width="4385" height="3207"  />
+            <h1 class="judul">SHEENAN</h1>
+            <p>By: GeraldSheenan</p>
+        </div>
+        <div class="boxLink">
+            <button onclick="go('https://instagram.com/geraldsheenan')">Instagram</button>
+            <button onclick="we('wewe')">Best Canon</button>
+            <button onclick="com('bo')">Combo Canon</button>
+        </div>
+    </div>
+    <script>
+        function go(ye) {
+            window.open(ye)
+        }
+        function we(wewe) {
+            alert("Isaiah, Linfei, Xull, Sidra, Onxy, ")
+        }
+        function com(bo){
+            alert("nLight, sAir--- nLight,  dAir--- nLight, sAir, nLight--- dLight, GC, dAir--- dLight, GC, nAir--- dLight; sLight; dLight; dAir--- sLight, GC, sAir--- sLight; dLight--- sAir; nLight--- (Isaiah, Xull  and Lin Fei) dLight; nSig--- (Sidra) nSig; sLight--- (Sidra) nSig; nSig")
+}
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+<h?php
+if (isset ($GET["tombolget"])){
+    echo "<h1>Supraiss", $GET["nama"] . "</h1>";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pertemuan4</title>
+</head>
+<body>
+    <form action="" method="get">
+        Nama Lengkap: <input type="text" name="nama"><br>
+        NIM : <input type="text" name="nim">
+        <input type="submit" name="tombolget">
+    </form>
+
+        <form action="terimapost.php" method="post"></form>
+        Nama Lengkap : <input type="text" name="nama"><br>
+        NIM : <input type="submit" name="nim">
+        <input type="submit" name="tombolpost">
+    </form>
+</body>
+</html>
