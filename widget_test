@@ -1,0 +1,8 @@
+void main(){
+  var nama = "ucok";
+  String nama_binatang = 'timothy';
+  print(nama);
+  print("nama binatang = $nama_binatang");
+  print(nama.toUpperCase());
+  print("nama gede ${nama_binatang.toUpperCase()}");
+} 
