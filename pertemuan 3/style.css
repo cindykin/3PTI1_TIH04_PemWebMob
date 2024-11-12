@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    background-color: aqua;
+}
+img{
+    
+}
+.tombol {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
