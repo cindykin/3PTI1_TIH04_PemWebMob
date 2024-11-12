@@ -1,0 +1,16 @@
+import 'package:flutter/material.dart';
+
+void main(){
+  runApp(AppsJancok());
+  }
+
+  class AppsJancok extends StatelessWidget{
+
+    Widget build(BuildContext context) {
+      return MaterialApp(
+        home: Scaffold(
+          backgroundColor: Color.fromARGB(255, 26, 13, 29),
+          body: Text('halo dunia')
+        )
+      );
+    }}
