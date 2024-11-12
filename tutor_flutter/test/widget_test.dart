@@ -19,6 +19,8 @@ void main() {
   //ada kumpulan data banyak juga kaya list & map (dict)
   bool isJantan = true;
   int umur = 30;
+  print(isJantan);
+  print(umur);
   //dynamic, bebas tipe variabel
   List warnaKaosGua = ['yellow', 'green', 'red', 50, 22];
   print("warna kaos gua: $warnaKaosGua");
