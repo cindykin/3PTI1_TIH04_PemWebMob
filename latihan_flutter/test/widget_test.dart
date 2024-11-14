@@ -1,30 +1,38 @@
-// This is a basic Flutter widget test.
-//
-// To perform an interaction with a widget in your test, use the WidgetTester
-// utility in the flutter_test package. For example, you can send tap and scroll
-// gestures. You can also use WidgetTester to find child widgets in the widget
-// tree, read text, and verify that the values of widget properties are correct.
-
-import 'package:flutter/material.dart';
-import 'package:flutter_test/flutter_test.dart';
-
-import 'package:latihan_flutter/main.dart';
-
 void main() {
-  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
-    // Build our app and trigger a frame.
-    await tester.pumpWidget(const MyApp());
+  // Buat Variabel Baru
+  // Tipe data Varchar lebih fleksibel
+  var nama = "yanto";
+  // Mengganti isi variabel
+  nama = "gaming";
 
-    // Verify that our counter starts at 0.
-    expect(find.text('0'), findsOneWidget);
-    expect(find.text('1'), findsNothing);
+  print(nama);
+  print("Nama saya $nama");
 
-    // Tap the '+' icon and trigger a frame.
-    await tester.tap(find.byIcon(Icons.add));
-    await tester.pump();
+  // Mencoba salah satu panggilan method string contohnya toUpperCase()
+/*  var nama_kapital = nama.toUpperCase();
+    print("Nama saya $nama_kapital"); */
+  //alternatif lain toUpperCase langsung di dalam print
+  print("Nama saya ${nama.toUpperCase()}");
 
-    // Verify that our counter has incremented.
-    expect(find.text('0'), findsNothing);
-    expect(find.text('1'), findsOneWidget);
-  });
+  var nama_hurufkecil = nama.toLowerCase();
+  print("Nama saya $nama_hurufkecil");
+
+  //Contoh tipe data lain
+  bool isjantan = true;
+  int umur = 30;
+  //List bisa ambil semua data kecuali kalau listnya di define ke tipe data tertentu
+  List warnaKaosSaya = ['yellow', 'green', 'red', 12, 38];
+  print("Warna Kaos Saya $warnaKaosSaya");
+  //Contohnya list<string> untuk tipe data string
+  List<String> warnaKaosMereka = ['Blue', 'Brown', 'Black'];
+  print("Warna Kaos Mereka: $warnaKaosMereka");
+  print("Warna Kaos Mereka: ${warnaKaosMereka[0]}");
+
+  Map Kendaraan = {"mobil": "BMW 700", "motor": "Aerox Sliper"};
+
+  //final boleh nanti di set nilai
+  final String alamat;
+  alamat = "Jalan Ngawi";
+  //wajib set nilai saat dbuat
+  const String alamat2 = "Jalan Maju Ngawi";
 }
