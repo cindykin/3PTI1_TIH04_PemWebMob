@@ -48,9 +48,9 @@ class AppNgawur extends StatelessWidget {
             //   ),
 
             // 1. ambil dari lokal
-            //child: Image.asset(),
+            child: Image.asset("gambar/myo.png")
             // 2. ambil dari internet
-            child: Image.network("https://steamuserimages-a.akamaihd.net/ugc/2014846607495093093/B4D1CEE5431514CC181BE67D826A14E70493735D/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"),
+            //child: Image.network("https://steamuserimages-a.akamaihd.net/ugc/2014846607495093093/B4D1CEE5431514CC181BE67D826A14E70493735D/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"),
         ),
       ),
     );
