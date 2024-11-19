@@ -1,0 +1,61 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(AppTercinta ());
+}
+
+class AppTercinta extends StatelessWidget {
+  const AppTercinta({super.key});
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text("Aplikasi judol"),
+          centerTitle: true,
+          backgroundColor: Colors.yellow,
+        ),
+        backgroundColor: Colors.red,
+        body: Center(
+          //child: Text('halo dunia'),
+
+
+          //child: Container(
+          //  width: 500,
+          //  height: 500,
+          //  color: Colors.blue,
+          // child: Text("Akulah Container"),
+          //),
+
+          //pakai flutter logo
+          //child: FlutterLogo(
+          //  size: 200,
+          //),
+
+          //yang akan terjadi saat tombol diklik
+          // child: ElevatedButton(
+          //   onPressed: (){
+          //     print("tombol diklik");
+          //   },
+          //   child: Text("akulah button"),
+          // ),
+          
+          //buat icon
+          // child: Icon(
+          //   Icons.add_alarm,
+          //   size: 150,
+          //   color: Colors.white,
+          //   ),
+          
+          //buat image
+          //1.ambil dari lokal
+          child:  Image.asset("gambar/cat.png")
+
+          //2.ambil dari netrwork
+          //child: Image.network("https://png.pngtree.com/png-vector/20240618/ourmid/pngtree-a-cute-orange-color-kitten-cartoon-isolated-png-image_12795180.png"),
+        ),
+      ),
+    );
+  }
+}
+    
