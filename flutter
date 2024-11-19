@@ -1,0 +1,26 @@
+import 'package:flutter/material.dart';
+
+void main(){
+  runApp(AppsO_O());
+  }
+
+  class AppsO_O extends StatelessWidget{
+    const AppsO_O({super ,key});
+
+    @override
+    Widget build(BuildContext context) {
+      // papan kayu
+      return MaterialApp(
+        // kanvas
+        home: Scaffold(
+          appBar: Appbar(
+          title: Text("oooo"),
+        ), // AppBar
+        backgroundColor: Colors.red,
+        body: Center(
+          child: Text("pppp"),
+        ), //Center
+      ), //Scaffold
+    ); // materialApp
+  }
+}
