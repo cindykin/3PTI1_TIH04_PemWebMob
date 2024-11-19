@@ -1,0 +1,62 @@
+Latihan peretemuan 9/ 19/11.2024
+
+import 'package:flutter/material.dart';
+
+
+void main () {
+  runApp(AppTercinta());
+}
+
+class AppTercinta extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title:Text("Aplikasi Gloria"),
+          centerTitle: true,
+          backgroundColor: Colors.orange,
+        ),
+        backgroundColor:Colors.red,
+        body: Center( 
+          //buat teks
+          //child: Text("halo dunia")   
+          //child: Container(
+            //width: 250,
+           // height:250,
+           // color: Colors.blue,
+           // child: Center(
+              //child:Text("Selamat datang di Aplikasi Gloria")),
+         // ), 
+
+          //pakai Flutterlogo(),
+         // child: FlutterLogo(
+           // size: 200,
+          //)
+
+          //child: ElevatedButton(
+            //yang akan terjadi saat tombol klik
+           // onPressed: (){
+             // print("tombol diklik");
+           // },
+            //didalam button isisnya apa, bisa text/gambar
+            //child: Text("AppShopeeGloria"),
+         // )
+         // 
+         // buat nama icon
+         //child:Icon(
+         //   Icons.add_alarm,
+            //size:150,
+            //color: Colors.white,
+            //)
+
+          //buat Image
+          //1. ambil dari lokal 
+          //child: Image.asset ("gambar/gib.jpg")
+          //2. ambil daroi network
+           //Image.network("https://blog.ninjaxpress.co/konsep-foto-produk/")
+        )
+      ), //Scaffold
+    );//Materialapp
+  }
+}
