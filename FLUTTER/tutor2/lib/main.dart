@@ -16,7 +16,7 @@ class AppTercinta extends StatelessWidget {
       home: Scaffold(
         // bikin app bar
         appBar: AppBar(
-          title: Text("Aplikasi Judol"),
+          title: Text("Aplikasi UBM"),
           centerTitle: true,
           backgroundColor: Colors.yellow,
         ),
